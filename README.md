@@ -1,11 +1,27 @@
 ## Hi, I'm Marjan 👋
 
-**Computational biology & machine learning researcher.**
-I build models that predict how cells respond to genetic perturbations, pipelines for cancer immunogenomics, and tools for understanding multi-agent LLM systems.
+**PhD candidate, School of Computing, Macquarie University** · **Research Assistant, Centre for Applied Artificial Intelligence**
+🎓 Master's in Bioinformatics
+
+- 🤖 **PhD research:** detecting and preventing collusion in multi-agent LLM systems
+- 🧬 **Applied work:** developing LLM-based tools for personalised cancer vaccine design, in collaboration with Macquarie Medical School
+- 🔬 **Background:** predicting how cells respond to genetic perturbations with graph neural networks and gene regulatory networks
 
 [![Email](https://img.shields.io/badge/Email-marjan.ba75%40gmail.com-blue?logo=gmail&logoColor=white)](mailto:marjan.ba75@gmail.com)
 
 ---
+
+### 🤖 Multi-Agent LLM Safety
+
+| Project | Description | Status |
+|---|---|---|
+| **Sequential collusion probes** | Extends [NARCBench](https://github.com/aaronrose227/narcbench) (detecting collusion between LLM agents via activation probes) from per-message to trajectory-level detection, with per-round layer selection | In progress |
+
+### 🎯 Cancer Immunogenomics
+
+| Project | Description | Status |
+|---|---|---|
+| **WGS ERV insertion discovery** | Snakemake workflow that takes paired tumour WGS FASTQs and calls candidate non-reference endogenous retrovirus (ERV) insertions with ERVcaller, as a new module in a pipeline for ERV-derived antigens in personalised cancer immunotherapy | In progress · collaborative |
 
 ### 🧬 Perturbation Modelling & Gene Regulatory Networks
 
@@ -14,18 +30,6 @@ I build models that predict how cells respond to genetic perturbations, pipeline
 | **GRN-GEARS** | Extends [GEARS](https://github.com/snap-stanford/GEARS) with a signed gene-regulatory-network encoder to predict transcriptional outcomes of single and combinatorial gene perturbations. Includes a hybrid GRN + foundation-model-embedding variant, interventional GRN evaluation, and ablations on Norman and Dixit Perturb-seq data | Master's thesis · code release coming soon |
 | **GEARS × scELMo** | Cross-attention variant fusing scELMo LLM-derived gene embeddings with GRN structure | Research code |
 | **scELMo cell-type annotation** | Cell-type annotation benchmarks across BMMC, SEA-AD and other single-cell atlases using scELMo embeddings | Analysis |
-
-### 🎯 Cancer Immunogenomics
-
-| Project | Description | Status |
-|---|---|---|
-| **WGS ERV insertion discovery** | Snakemake workflow that takes paired tumour WGS FASTQs and calls candidate non-reference endogenous retrovirus (ERV) insertions with ERVcaller, as a new module in a pipeline for ERV-derived antigens in personalised cancer immunotherapy | In progress · collaborative |
-
-### 🤖 Multi-Agent LLM Safety
-
-| Project | Description | Status |
-|---|---|---|
-| **Sequential collusion probes** | Extends [NARCBench](https://github.com/aaronrose227/narcbench) (detecting collusion between LLM agents via activation probes) from per-message to trajectory-level detection, with per-round layer selection | In progress |
 
 ### 🗂️ Earlier Work
 
