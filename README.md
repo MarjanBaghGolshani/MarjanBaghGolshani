@@ -7,6 +7,9 @@
 - 🧬 **Applied work:** developing LLM-based tools for personalised cancer vaccine design, in collaboration with Macquarie Medical School
 - 🔬 **Background:** predicting how cells respond to genetic perturbations with graph neural networks and gene regulatory networks
 
+[![Website](https://img.shields.io/badge/Website-marjangolshani.github.io-2f5d8a?logo=googlechrome&logoColor=white)](https://marjangolshani.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marjan-baghgolshani-0462a2125/)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=P0UNbYQAAAAJ&hl=en)
 [![Email](https://img.shields.io/badge/Email-marjan.ba75%40gmail.com-blue?logo=gmail&logoColor=white)](mailto:marjan.ba75@gmail.com)
 
 ---
@@ -27,7 +30,7 @@
 
 | Project | Description | Status |
 |---|---|---|
-| **GRN-GEARS** | Extends [GEARS](https://github.com/snap-stanford/GEARS) with a signed gene-regulatory-network encoder to predict transcriptional outcomes of single and combinatorial gene perturbations. Includes a hybrid GRN + foundation-model-embedding variant, interventional GRN evaluation, and ablations on Norman and Dixit Perturb-seq data | Master's thesis · code release coming soon |
+| **GRN-GEARS** | Extends [GEARS](https://github.com/snap-stanford/GEARS) with a signed gene-regulatory-network encoder to predict transcriptional outcomes of single and combinatorial gene perturbations. Includes a hybrid GRN + foundation-model-embedding variant, interventional GRN evaluation, and ablations on Norman and Dixit Perturb-seq data | Published at IEEE ICDH 2026 · code release coming soon |
 | **GEARS × scELMo** | Cross-attention variant fusing scELMo LLM-derived gene embeddings with GRN structure | Research code |
 | **scELMo cell-type annotation** | Cell-type annotation benchmarks across BMMC, SEA-AD and other single-cell atlases using scELMo embeddings | Analysis |
 
